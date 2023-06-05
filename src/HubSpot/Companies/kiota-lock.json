@@ -1,0 +1,37 @@
+{
+  "descriptionHash": "B9215FE7F10470FF61B8A85B02E3DCB1DEFEC3B81249C1B162340A8368BF81C6EB0AF0CD41469A8CBAEB501F55CFBB452B0EC65EC96B04EA48EFFF224E94D998",
+  "descriptionLocation": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.2.1",
+  "clientClassName": "HubSpotCompaniesClient",
+  "clientNamespaceName": "HubSpot.Companies",
+  "language": "CSharp",
+  "usesBackingStore": false,
+  "includeAdditionalData": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [
+    "/crm/v3/objects/companies/batch/create#POST",
+    "/crm/v3/objects/companies/batch/read#POST",
+    "/crm/v3/objects/companies/search#POST",
+    "/crm/v3/objects/companies/{companyId}#GET",
+    "/crm/v3/objects/companies/{companyId}#PATCH",
+    "/crm/v3/objects/companies#GET",
+    "/crm/v3/objects/companies#POST"
+  ],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

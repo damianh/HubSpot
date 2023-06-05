@@ -1,0 +1,36 @@
+{
+  "descriptionHash": "483548110F7F1E9927994E20BC3D4CE1A4DCF002C1E76F23ABE82E3881C0099E5268D2E65878E4E6C0DA2469691484F91B44F0A78740DCC5BBD8BDAE4F2520B7",
+  "descriptionLocation": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/deals",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.2.1",
+  "clientClassName": "HubSpotCrmClient",
+  "clientNamespaceName": "HubSpot.Crm",
+  "language": "CSharp",
+  "usesBackingStore": false,
+  "includeAdditionalData": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [
+    "/crm/v3/objects/deals/batch/read",
+    "/crm/v3/objects/deals/batch/update",
+    "/crm/v3/objects/deals/search",
+    "/crm/v3/objects/deals/{dealId}",
+    "/crm/v3/objects/deals#GET",
+    "/crm/v3/objects/deals#POST"
+  ],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

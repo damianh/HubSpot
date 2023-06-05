@@ -1,0 +1,34 @@
+{
+  "descriptionHash": "09168D8784B0DC089443471182859F6876D246BD50C4E424B1CA000679DD5A2FE7991729739C7F3AB74B9F30D80946EE83C5549C18BF44838B0004B3C54EDA8D",
+  "descriptionLocation": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/associations",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.2.1",
+  "clientClassName": "HubSpotAssociationClient",
+  "clientNamespaceName": "HubSpot.Associations",
+  "language": "CSharp",
+  "usesBackingStore": false,
+  "includeAdditionalData": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [
+    "/crm/v3/associations",
+    "/crm/v3/associations/{fromObjectType}/{toObjectType}/batch/create",
+    "/crm/v3/associations/{fromObjectType}/{toObjectType}/batch/read",
+    "/crm/v3/associations/{fromObjectType}/{toObjectType}/types"
+  ],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}
