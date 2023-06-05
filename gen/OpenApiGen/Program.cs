@@ -34,9 +34,9 @@ foreach (var result in apiCatalog.Results)
         logger.Information("Generating {featureKey} {openApiUrl}", featureKey, feature.Value.OpenAPI);
         try
         {
-            /*var (standardOutput1, standardError1) = await ReadAsync(
+            var (standardOutput1, standardError1) = await ReadAsync(
                 "docker",
-                @$"run --rm -v {Environment.CurrentDirectory}:/local openapitools/openapi-generator-cli generate -i {feature.Value.OpenAPI} -g csharp-netcore -o /local/src/HubSpot.{name}.{featureKey} -p packageName=HubSpot.{name}.{featureKey}" );*/
+                @$"run --rm -v {Environment.CurrentDirectory}:/local openapitools/openapi-generator-cli generate -i {feature.Value.OpenAPI} -g csharp-netcore -o /local/src/HubSpot.{name}.{featureKey} -p packageName=HubSpot.{name}.{featureKey}" );
 
             logger.Information("Standard Output: {standardOutput1}", standardOutput1);
             logger.Error("Standard Error: {standardError1}", standardError1);
