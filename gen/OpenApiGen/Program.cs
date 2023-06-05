@@ -37,6 +37,8 @@ foreach (var result in apiCatalog.Results)
             /*var (standardOutput1, standardError1) = await ReadAsync(
                 "docker",
                 @$"run --rm -v {Environment.CurrentDirectory}:/local openapitools/openapi-generator-cli generate -i {feature.Value.OpenAPI} -g csharp-netcore -o /local/src/HubSpot.{name}.{featureKey} -p packageName=HubSpot.{name}.{featureKey}" );*/
+            var (standardOutput1, standardError1) = await ReadAsync("refitter",
+                @$"{feature.Value.OpenAPI} --namespace HubSpot.{name}.{featureKey} --output src/HubSpot/{name}.{featureKey}.cs --cancellation-tokens");
 
             logger.Information("Standard Output: {standardOutput1}", standardOutput1);
             logger.Error("Standard Error: {standardError1}", standardError1);

@@ -9352,3 +9352,936 @@ Errors:
 [20:09:38] [ERR]   Auth Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
 [20:09:38] [ERR]   Cms SourceCode https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/source-code
 [20:09:38] [ERR]   Crm Pipelines https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/pipelines
+[22:22:21] [INF] Generating Webhooks
+[22:22:21] [INF] Generating Webhooks https://api.hubspot.com/api-catalog-public/v1/apis/webhooks/v3
+[22:22:24] [INF] Standard Output: Support key: kedfgny
+
+Output: 55571 bytes
+
+[22:22:24] [ERR] Standard Error: 
+[22:22:24] [INF] Generating Events
+[22:22:24] [INF] Generating Events https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/events
+[22:22:27] [INF] Standard Output: Support key: kedfgny
+
+Output: 16965 bytes
+
+[22:22:27] [ERR] Standard Error: 
+[22:22:27] [INF] Generating CommunicationPreferences
+[22:22:27] [INF] Generating CommunicationsStatus https://api.hubspot.com/api-catalog-public/v1/apis/communication-preferences/v3
+[22:22:30] [INF] Standard Output: Support key: kedfgny
+
+Output: 27999 bytes
+
+[22:22:30] [ERR] Standard Error: 
+[22:22:30] [INF] Generating Auth
+[22:22:30] [INF] Generating Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
+[22:22:32] [ERR] Failed to generate for Auth Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
+SimpleExec.ExitCodeReadException: The command exited with code -1.
+
+Standard output (stdout):
+
+Support key: kedfgny
+
+Error:
+Required property 'title' not found in JSON. Path 'info', line 5, position 3.
+Error: Could not find color or style 'T'.
+
+
+Standard error (stderr):
+
+
+   at SimpleExec.Command.ReadAsync(ProcessStartInfo startInfo, Func`2 handleExitCode, String standardInput, CancellationToken cancellationToken) in /_/SimpleExec/Command.cs:line 364
+   at SimpleExec.Command.ReadAsync(String name, String args, String workingDirectory, Action`1 configureEnvironment, Encoding encoding, Func`2 handleExitCode, String standardInput, CancellationToken cancellationToken) in /_/SimpleExec/Command.cs:line 263
+   at Program.<Main>$(String[] args) in C:\dev\damianh\HubSpot\gen\OpenApiGen\Program.cs:line 40
+[22:22:32] [INF] Generating BusinessUnits
+[22:22:32] [INF] Generating BusinessUnits https://api.hubspot.com/api-catalog-public/v1/apis/business-units/v3
+[22:22:35] [INF] Standard Output: Support key: kedfgny
+
+Output: 13679 bytes
+
+[22:22:35] [ERR] Standard Error: 
+[22:22:35] [INF] Generating Analytics
+[22:22:35] [INF] Generating CustomBehavioralEvents https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/send
+[22:22:38] [INF] Standard Output: Support key: kedfgny
+
+Output: 11772 bytes
+
+[22:22:38] [ERR] Standard Error: 
+[22:22:38] [INF] Generating Cms
+[22:22:38] [INF] Generating Domains https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/domains
+[22:22:40] [INF] Standard Output: Support key: kedfgny
+
+Output: 20077 bytes
+
+[22:22:40] [ERR] Standard Error: 
+[22:22:40] [INF] Generating SourceCode https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/source-code
+[22:22:43] [INF] Standard Output: Support key: kedfgny
+
+Output: 20403 bytes
+
+[22:22:43] [ERR] Standard Error: 
+[22:22:43] [INF] Generating BlogPosts https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/blog-posts
+[22:22:46] [INF] Standard Output: Support key: kedfgny
+
+Output: 370969 bytes
+
+[22:22:46] [ERR] Standard Error: 
+[22:22:46] [INF] Generating Authors https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/authors
+[22:22:49] [INF] Standard Output: Support key: kedfgny
+
+Output: 303314 bytes
+
+[22:22:49] [ERR] Standard Error: 
+[22:22:49] [INF] Generating UrlRedirects https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/url-redirects
+[22:22:51] [INF] Standard Output: Support key: kedfgny
+
+Output: 23360 bytes
+
+[22:22:51] [ERR] Standard Error: 
+[22:22:51] [INF] Generating Performance https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/performance
+[22:22:54] [INF] Standard Output: Support key: kedfgny
+
+Output: 23337 bytes
+
+[22:22:54] [ERR] Standard Error: 
+[22:22:54] [INF] Generating Hubdb https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/hubdb
+[22:22:57] [INF] Standard Output: Support key: kedfgny
+
+Output: 89500 bytes
+
+[22:22:57] [ERR] Standard Error: 
+[22:22:57] [INF] Generating Tags https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/tags
+[22:22:59] [INF] Standard Output: Support key: kedfgny
+
+Output: 298998 bytes
+
+[22:22:59] [ERR] Standard Error: 
+[22:22:59] [INF] Generating AuditLogs https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/audit-logs
+[22:23:02] [INF] Standard Output: Support key: kedfgny
+
+Output: 19065 bytes
+
+[22:23:02] [ERR] Standard Error: 
+[22:23:02] [INF] Generating SiteSearch https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/site-search
+[22:23:05] [INF] Standard Output: Support key: kedfgny
+
+Output: 159365 bytes
+
+[22:23:05] [ERR] Standard Error: 
+[22:23:05] [INF] Generating Marketing
+[22:23:05] [INF] Generating MarketingEventsBeta https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/marketing-events-beta
+[22:23:08] [INF] Standard Output: Support key: kedfgny
+
+Output: 97020 bytes
+
+[22:23:08] [ERR] Standard Error: 
+[22:23:08] [INF] Generating Transactional https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/transactional
+[22:23:10] [INF] Standard Output: Support key: kedfgny
+
+Output: 36164 bytes
+
+[22:23:10] [ERR] Standard Error: 
+[22:23:10] [INF] Generating Automation
+[22:23:10] [INF] Generating Actions https://api.hubspot.com/api-catalog-public/v1/apis/automation/v4/actions
+[22:23:14] [INF] Standard Output: Support key: kedfgny
+
+Output: 77415 bytes
+
+[22:23:14] [ERR] Standard Error: 
+[22:23:14] [INF] Generating Conversations
+[22:23:15] [INF] Generating VisitorIdentification https://api.hubspot.com/api-catalog-public/v1/apis/conversations/v3/visitor-identification
+[22:23:18] [INF] Standard Output: Support key: kedfgny
+
+Output: 12127 bytes
+
+[22:23:18] [ERR] Standard Error: 
+[22:23:18] [INF] Generating Crm
+[22:23:18] [INF] Generating CrmExtensions https://api.hubspot.com/api-catalog-public/v1/apis/extensions/sales-objects/v1/object-types
+[22:23:21] [INF] Standard Output: Support key: kedfgny
+
+Output: 53310 bytes
+
+[22:23:21] [ERR] Standard Error: 
+[22:23:21] [INF] Generating Products https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/products
+[22:23:23] [INF] Standard Output: Support key: kedfgny
+
+Output: 73360 bytes
+
+[22:23:23] [ERR] Standard Error: 
+[22:23:23] [INF] Generating CrmAssociations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v4/associations
+[22:23:26] [INF] Standard Output: Support key: kedfgny
+
+Output: 71733 bytes
+
+[22:23:26] [ERR] Standard Error: 
+[22:23:26] [INF] Generating Pipelines https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/pipelines
+[22:23:28] [INF] Standard Output: Support key: kedfgny
+
+Output: 39089 bytes
+
+[22:23:28] [ERR] Standard Error: 
+[22:23:28] [INF] Generating Accounting https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/accounting
+[22:23:31] [INF] Standard Output: Support key: kedfgny
+
+Output: 113131 bytes
+
+[22:23:31] [ERR] Standard Error: 
+[22:23:31] [INF] Generating Companies https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies
+[22:23:33] [INF] Standard Output: Support key: kedfgny
+
+Output: 73374 bytes
+
+[22:23:33] [ERR] Standard Error: 
+[22:23:33] [INF] Generating Calling https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/calling
+[22:23:36] [INF] Standard Output: Support key: kedfgny
+
+Output: 19996 bytes
+
+[22:23:36] [ERR] Standard Error: 
+[22:23:36] [INF] Generating Quotes https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/quotes
+[22:23:38] [INF] Standard Output: Support key: kedfgny
+
+Output: 73308 bytes
+
+[22:23:38] [ERR] Standard Error: 
+[22:23:38] [INF] Generating Deals https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/deals
+[22:23:40] [INF] Standard Output: Support key: kedfgny
+
+Output: 73282 bytes
+
+[22:23:40] [ERR] Standard Error: 
+[22:23:40] [INF] Generating Imports https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/imports
+[22:23:43] [INF] Standard Output: Support key: kedfgny
+
+Output: 53699 bytes
+
+[22:23:43] [ERR] Standard Error: 
+[22:23:43] [INF] Generating Schemas https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/schemas
+[22:23:45] [INF] Standard Output: Support key: kedfgny
+
+Output: 63004 bytes
+
+[22:23:45] [ERR] Standard Error: 
+[22:23:45] [INF] Generating Properties https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/properties
+[22:23:48] [INF] Standard Output: Support key: kedfgny
+
+Output: 77357 bytes
+
+[22:23:48] [ERR] Standard Error: 
+[22:23:48] [INF] Generating Associations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/associations
+[22:23:50] [INF] Standard Output: Support key: kedfgny
+
+Output: 50203 bytes
+
+[22:23:50] [ERR] Standard Error: 
+[22:23:50] [INF] Generating Owners https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/owners
+[22:23:52] [INF] Standard Output: Support key: kedfgny
+
+Output: 17363 bytes
+
+[22:23:52] [ERR] Standard Error: 
+[22:23:52] [INF] Generating Timeline https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/timeline
+[22:23:55] [INF] Standard Output: Support key: kedfgny
+
+Output: 72012 bytes
+
+[22:23:55] [ERR] Standard Error: 
+[22:23:55] [INF] Generating Contacts https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/contacts
+[22:23:57] [INF] Standard Output: Support key: kedfgny
+
+Output: 74794 bytes
+
+[22:23:57] [ERR] Standard Error: 
+[22:23:57] [INF] Generating FeedbackSubmissions https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/feedback_submissions
+[22:24:00] [INF] Standard Output: Support key: kedfgny
+
+Output: 73660 bytes
+
+[22:24:00] [ERR] Standard Error: 
+[22:24:00] [INF] Generating Objects https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects
+[22:24:02] [INF] Standard Output: Support key: kedfgny
+
+Output: 77652 bytes
+
+[22:24:02] [ERR] Standard Error: 
+[22:24:02] [INF] Generating Videoconferencing https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/videoconferencing
+[22:24:05] [INF] Standard Output: Support key: kedfgny
+
+Output: 11917 bytes
+
+[22:24:05] [ERR] Standard Error: 
+[22:24:05] [INF] Generating Tickets https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/tickets
+[22:24:07] [INF] Standard Output: Support key: kedfgny
+
+Output: 73334 bytes
+
+[22:24:07] [ERR] Standard Error: 
+[22:24:07] [INF] Generating LineItems https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/line_items
+[22:24:09] [INF] Standard Output: Support key: kedfgny
+
+Output: 73400 bytes
+
+[22:24:09] [ERR] Standard Error: 
+[22:24:09] [INF]   Webhooks Webhooks https://api.hubspot.com/api-catalog-public/v1/apis/webhooks/v3
+[22:24:09] [INF]   Events Events https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/events
+[22:24:09] [INF]   CommunicationPreferences CommunicationsStatus https://api.hubspot.com/api-catalog-public/v1/apis/communication-preferences/v3
+[22:24:09] [INF]   BusinessUnits BusinessUnits https://api.hubspot.com/api-catalog-public/v1/apis/business-units/v3
+[22:24:09] [INF]   Analytics CustomBehavioralEvents https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/send
+[22:24:09] [INF]   Cms Domains https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/domains
+[22:24:09] [INF]   Cms SourceCode https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/source-code
+[22:24:10] [INF]   Cms BlogPosts https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/blog-posts
+[22:24:10] [INF]   Cms Authors https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/authors
+[22:24:10] [INF]   Cms UrlRedirects https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/url-redirects
+[22:24:10] [INF]   Cms Performance https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/performance
+[22:24:10] [INF]   Cms Hubdb https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/hubdb
+[22:24:10] [INF]   Cms Tags https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/tags
+[22:24:10] [INF]   Cms AuditLogs https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/audit-logs
+[22:24:10] [INF]   Cms SiteSearch https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/site-search
+[22:24:10] [INF]   Marketing MarketingEventsBeta https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/marketing-events-beta
+[22:24:10] [INF]   Marketing Transactional https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/transactional
+[22:24:10] [INF]   Automation Actions https://api.hubspot.com/api-catalog-public/v1/apis/automation/v4/actions
+[22:24:10] [INF]   Conversations VisitorIdentification https://api.hubspot.com/api-catalog-public/v1/apis/conversations/v3/visitor-identification
+[22:24:10] [INF]   Crm CrmExtensions https://api.hubspot.com/api-catalog-public/v1/apis/extensions/sales-objects/v1/object-types
+[22:24:10] [INF]   Crm Products https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/products
+[22:24:10] [INF]   Crm CrmAssociations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v4/associations
+[22:24:10] [INF]   Crm Pipelines https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/pipelines
+[22:24:10] [INF]   Crm Accounting https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/accounting
+[22:24:10] [INF]   Crm Companies https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies
+[22:24:10] [INF]   Crm Calling https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/calling
+[22:24:10] [INF]   Crm Quotes https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/quotes
+[22:24:10] [INF]   Crm Deals https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/deals
+[22:24:10] [INF]   Crm Imports https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/imports
+[22:24:10] [INF]   Crm Schemas https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/schemas
+[22:24:10] [INF]   Crm Properties https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/properties
+[22:24:10] [INF]   Crm Associations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/associations
+[22:24:10] [INF]   Crm Owners https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/owners
+[22:24:10] [INF]   Crm Timeline https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/timeline
+[22:24:10] [INF]   Crm Contacts https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/contacts
+[22:24:10] [INF]   Crm FeedbackSubmissions https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/feedback_submissions
+[22:24:10] [INF]   Crm Objects https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects
+[22:24:10] [INF]   Crm Videoconferencing https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/videoconferencing
+[22:24:10] [INF]   Crm Tickets https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/tickets
+[22:24:10] [INF]   Crm LineItems https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/line_items
+[22:24:10] [ERR]   Auth Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
+[22:26:05] [INF] Generating Webhooks
+[22:26:05] [INF] Generating Webhooks https://api.hubspot.com/api-catalog-public/v1/apis/webhooks/v3
+[22:26:08] [INF] Standard Output: Support key: kedfgny
+
+Output: 55589 bytes
+
+[22:26:08] [ERR] Standard Error: 
+[22:26:08] [INF] Generating Events
+[22:26:08] [INF] Generating Events https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/events
+[22:26:10] [INF] Standard Output: Support key: kedfgny
+
+Output: 16979 bytes
+
+[22:26:10] [ERR] Standard Error: 
+[22:26:10] [INF] Generating CommunicationPreferences
+[22:26:10] [INF] Generating CommunicationsStatus https://api.hubspot.com/api-catalog-public/v1/apis/communication-preferences/v3
+[22:26:13] [INF] Standard Output: Support key: kedfgny
+
+Output: 28049 bytes
+
+[22:26:13] [ERR] Standard Error: 
+[22:26:13] [INF] Generating Auth
+[22:26:13] [INF] Generating Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
+[22:26:15] [ERR] Failed to generate for Auth Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
+SimpleExec.ExitCodeReadException: The command exited with code -1.
+
+Standard output (stdout):
+
+Support key: kedfgny
+
+Error:
+Required property 'title' not found in JSON. Path 'info', line 5, position 3.
+Error: Could not find color or style 'T'.
+
+
+Standard error (stderr):
+
+
+   at SimpleExec.Command.ReadAsync(ProcessStartInfo startInfo, Func`2 handleExitCode, String standardInput, CancellationToken cancellationToken) in /_/SimpleExec/Command.cs:line 364
+   at SimpleExec.Command.ReadAsync(String name, String args, String workingDirectory, Action`1 configureEnvironment, Encoding encoding, Func`2 handleExitCode, String standardInput, CancellationToken cancellationToken) in /_/SimpleExec/Command.cs:line 263
+   at Program.<Main>$(String[] args) in C:\dev\damianh\HubSpot\gen\OpenApiGen\Program.cs:line 40
+[22:26:15] [INF] Generating BusinessUnits
+[22:26:15] [INF] Generating BusinessUnits https://api.hubspot.com/api-catalog-public/v1/apis/business-units/v3
+[22:26:18] [INF] Standard Output: Support key: kedfgny
+
+Output: 13707 bytes
+
+[22:26:18] [ERR] Standard Error: 
+[22:26:18] [INF] Generating Analytics
+[22:26:18] [INF] Generating CustomBehavioralEvents https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/send
+[22:26:21] [INF] Standard Output: Support key: kedfgny
+
+Output: 11792 bytes
+
+[22:26:21] [ERR] Standard Error: 
+[22:26:21] [INF] Generating Cms
+[22:26:21] [INF] Generating Domains https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/domains
+[22:26:24] [INF] Standard Output: Support key: kedfgny
+
+Output: 20085 bytes
+
+[22:26:24] [ERR] Standard Error: 
+[22:26:24] [INF] Generating SourceCode https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/source-code
+[22:26:26] [INF] Standard Output: Support key: kedfgny
+
+Output: 20411 bytes
+
+[22:26:26] [ERR] Standard Error: 
+[22:26:26] [INF] Generating BlogPosts https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/blog-posts
+[22:26:30] [INF] Standard Output: Support key: kedfgny
+
+Output: 370977 bytes
+
+[22:26:30] [ERR] Standard Error: 
+[22:26:30] [INF] Generating Authors https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/authors
+[22:26:33] [INF] Standard Output: Support key: kedfgny
+
+Output: 303322 bytes
+
+[22:26:33] [ERR] Standard Error: 
+[22:26:33] [INF] Generating UrlRedirects https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/url-redirects
+[22:26:36] [INF] Standard Output: Support key: kedfgny
+
+Output: 23368 bytes
+
+[22:26:36] [ERR] Standard Error: 
+[22:26:36] [INF] Generating Performance https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/performance
+[22:26:38] [INF] Standard Output: Support key: kedfgny
+
+Output: 23345 bytes
+
+[22:26:38] [ERR] Standard Error: 
+[22:26:38] [INF] Generating Hubdb https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/hubdb
+[22:26:41] [INF] Standard Output: Support key: kedfgny
+
+Output: 89508 bytes
+
+[22:26:41] [ERR] Standard Error: 
+[22:26:41] [INF] Generating Tags https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/tags
+[22:26:44] [INF] Standard Output: Support key: kedfgny
+
+Output: 299006 bytes
+
+[22:26:44] [ERR] Standard Error: 
+[22:26:44] [INF] Generating AuditLogs https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/audit-logs
+[22:26:47] [INF] Standard Output: Support key: kedfgny
+
+Output: 19073 bytes
+
+[22:26:47] [ERR] Standard Error: 
+[22:26:47] [INF] Generating SiteSearch https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/site-search
+[22:26:49] [INF] Standard Output: Support key: kedfgny
+
+Output: 159373 bytes
+
+[22:26:49] [ERR] Standard Error: 
+[22:26:49] [INF] Generating Marketing
+[22:26:49] [INF] Generating MarketingEventsBeta https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/marketing-events-beta
+[22:26:52] [INF] Standard Output: Support key: kedfgny
+
+Output: 97040 bytes
+
+[22:26:52] [ERR] Standard Error: 
+[22:26:52] [INF] Generating Transactional https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/transactional
+[22:26:55] [INF] Standard Output: Support key: kedfgny
+
+Output: 36184 bytes
+
+[22:26:55] [ERR] Standard Error: 
+[22:26:55] [INF] Generating Automation
+[22:26:55] [INF] Generating Actions https://api.hubspot.com/api-catalog-public/v1/apis/automation/v4/actions
+[22:26:57] [INF] Standard Output: Support key: kedfgny
+
+Output: 77459 bytes
+
+[22:26:57] [ERR] Standard Error: 
+[22:26:57] [INF] Generating Conversations
+[22:26:57] [INF] Generating VisitorIdentification https://api.hubspot.com/api-catalog-public/v1/apis/conversations/v3/visitor-identification
+[22:27:00] [INF] Standard Output: Support key: kedfgny
+
+Output: 12155 bytes
+
+[22:27:00] [ERR] Standard Error: 
+[22:27:00] [INF] Generating Crm
+[22:27:00] [INF] Generating CrmExtensions https://api.hubspot.com/api-catalog-public/v1/apis/extensions/sales-objects/v1/object-types
+[22:27:03] [INF] Standard Output: Support key: kedfgny
+
+Output: 53326 bytes
+
+[22:27:03] [ERR] Standard Error: 
+[22:27:03] [INF] Generating Products https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/products
+[22:27:05] [INF] Standard Output: Support key: kedfgny
+
+Output: 73368 bytes
+
+[22:27:05] [ERR] Standard Error: 
+[22:27:05] [INF] Generating CrmAssociations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v4/associations
+[22:27:08] [INF] Standard Output: Support key: kedfgny
+
+Output: 71741 bytes
+
+[22:27:08] [ERR] Standard Error: 
+[22:27:08] [INF] Generating Pipelines https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/pipelines
+[22:27:10] [INF] Standard Output: Support key: kedfgny
+
+Output: 39097 bytes
+
+[22:27:10] [ERR] Standard Error: 
+[22:27:10] [INF] Generating Accounting https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/accounting
+[22:27:13] [INF] Standard Output: Support key: kedfgny
+
+Output: 113139 bytes
+
+[22:27:13] [ERR] Standard Error: 
+[22:27:13] [INF] Generating Companies https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies
+[22:27:15] [INF] Standard Output: Support key: kedfgny
+
+Output: 73382 bytes
+
+[22:27:15] [ERR] Standard Error: 
+[22:27:15] [INF] Generating Calling https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/calling
+[22:27:17] [INF] Standard Output: Support key: kedfgny
+
+Output: 20004 bytes
+
+[22:27:17] [ERR] Standard Error: 
+[22:27:17] [INF] Generating Quotes https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/quotes
+[22:27:19] [INF] Standard Output: Support key: kedfgny
+
+Output: 73316 bytes
+
+[22:27:19] [ERR] Standard Error: 
+[22:27:19] [INF] Generating Deals https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/deals
+[22:27:22] [INF] Standard Output: Support key: kedfgny
+
+Output: 73290 bytes
+
+[22:27:22] [ERR] Standard Error: 
+[22:27:22] [INF] Generating Imports https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/imports
+[22:27:24] [INF] Standard Output: Support key: kedfgny
+
+Output: 53707 bytes
+
+[22:27:24] [ERR] Standard Error: 
+[22:27:24] [INF] Generating Schemas https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/schemas
+[22:27:27] [INF] Standard Output: Support key: kedfgny
+
+Output: 63012 bytes
+
+[22:27:27] [ERR] Standard Error: 
+[22:27:27] [INF] Generating Properties https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/properties
+[22:27:29] [INF] Standard Output: Support key: kedfgny
+
+Output: 77365 bytes
+
+[22:27:29] [ERR] Standard Error: 
+[22:27:29] [INF] Generating Associations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/associations
+[22:27:32] [INF] Standard Output: Support key: kedfgny
+
+Output: 50211 bytes
+
+[22:27:32] [ERR] Standard Error: 
+[22:27:32] [INF] Generating Owners https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/owners
+[22:27:34] [INF] Standard Output: Support key: kedfgny
+
+Output: 17371 bytes
+
+[22:27:34] [ERR] Standard Error: 
+[22:27:34] [INF] Generating Timeline https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/timeline
+[22:27:36] [INF] Standard Output: Support key: kedfgny
+
+Output: 72020 bytes
+
+[22:27:36] [ERR] Standard Error: 
+[22:27:36] [INF] Generating Contacts https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/contacts
+[22:27:38] [INF] Standard Output: Support key: kedfgny
+
+Output: 74802 bytes
+
+[22:27:38] [ERR] Standard Error: 
+[22:27:38] [INF] Generating FeedbackSubmissions https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/feedback_submissions
+[22:27:41] [INF] Standard Output: Support key: kedfgny
+
+Output: 73668 bytes
+
+[22:27:41] [ERR] Standard Error: 
+[22:27:41] [INF] Generating Objects https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects
+[22:27:43] [INF] Standard Output: Support key: kedfgny
+
+Output: 77660 bytes
+
+[22:27:43] [ERR] Standard Error: 
+[22:27:43] [INF] Generating Videoconferencing https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/videoconferencing
+[22:27:45] [INF] Standard Output: Support key: kedfgny
+
+Output: 11925 bytes
+
+[22:27:45] [ERR] Standard Error: 
+[22:27:45] [INF] Generating Tickets https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/tickets
+[22:27:48] [INF] Standard Output: Support key: kedfgny
+
+Output: 73342 bytes
+
+[22:27:48] [ERR] Standard Error: 
+[22:27:48] [INF] Generating LineItems https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/line_items
+[22:27:50] [INF] Standard Output: Support key: kedfgny
+
+Output: 73408 bytes
+
+[22:27:50] [ERR] Standard Error: 
+[22:27:50] [INF]   Webhooks Webhooks https://api.hubspot.com/api-catalog-public/v1/apis/webhooks/v3
+[22:27:50] [INF]   Events Events https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/events
+[22:27:50] [INF]   CommunicationPreferences CommunicationsStatus https://api.hubspot.com/api-catalog-public/v1/apis/communication-preferences/v3
+[22:27:50] [INF]   BusinessUnits BusinessUnits https://api.hubspot.com/api-catalog-public/v1/apis/business-units/v3
+[22:27:50] [INF]   Analytics CustomBehavioralEvents https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/send
+[22:27:50] [INF]   Cms Domains https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/domains
+[22:27:50] [INF]   Cms SourceCode https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/source-code
+[22:27:50] [INF]   Cms BlogPosts https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/blog-posts
+[22:27:50] [INF]   Cms Authors https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/authors
+[22:27:50] [INF]   Cms UrlRedirects https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/url-redirects
+[22:27:50] [INF]   Cms Performance https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/performance
+[22:27:50] [INF]   Cms Hubdb https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/hubdb
+[22:27:50] [INF]   Cms Tags https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/tags
+[22:27:50] [INF]   Cms AuditLogs https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/audit-logs
+[22:27:50] [INF]   Cms SiteSearch https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/site-search
+[22:27:50] [INF]   Marketing MarketingEventsBeta https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/marketing-events-beta
+[22:27:50] [INF]   Marketing Transactional https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/transactional
+[22:27:50] [INF]   Automation Actions https://api.hubspot.com/api-catalog-public/v1/apis/automation/v4/actions
+[22:27:50] [INF]   Conversations VisitorIdentification https://api.hubspot.com/api-catalog-public/v1/apis/conversations/v3/visitor-identification
+[22:27:50] [INF]   Crm CrmExtensions https://api.hubspot.com/api-catalog-public/v1/apis/extensions/sales-objects/v1/object-types
+[22:27:50] [INF]   Crm Products https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/products
+[22:27:50] [INF]   Crm CrmAssociations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v4/associations
+[22:27:50] [INF]   Crm Pipelines https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/pipelines
+[22:27:50] [INF]   Crm Accounting https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/accounting
+[22:27:50] [INF]   Crm Companies https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies
+[22:27:50] [INF]   Crm Calling https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/calling
+[22:27:50] [INF]   Crm Quotes https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/quotes
+[22:27:50] [INF]   Crm Deals https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/deals
+[22:27:50] [INF]   Crm Imports https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/imports
+[22:27:50] [INF]   Crm Schemas https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/schemas
+[22:27:50] [INF]   Crm Properties https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/properties
+[22:27:50] [INF]   Crm Associations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/associations
+[22:27:50] [INF]   Crm Owners https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/owners
+[22:27:50] [INF]   Crm Timeline https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/timeline
+[22:27:50] [INF]   Crm Contacts https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/contacts
+[22:27:50] [INF]   Crm FeedbackSubmissions https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/feedback_submissions
+[22:27:50] [INF]   Crm Objects https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects
+[22:27:50] [INF]   Crm Videoconferencing https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/videoconferencing
+[22:27:50] [INF]   Crm Tickets https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/tickets
+[22:27:50] [INF]   Crm LineItems https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/line_items
+[22:27:50] [ERR]   Auth Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
+[22:39:12] [INF] Generating Webhooks
+[22:39:12] [INF] Generating Webhooks https://api.hubspot.com/api-catalog-public/v1/apis/webhooks/v3
+[22:39:15] [INF] Standard Output: Support key: kedfgny
+
+Output: 55607 bytes
+
+[22:39:15] [ERR] Standard Error: 
+[22:39:15] [INF] Generating Events
+[22:39:15] [INF] Generating Events https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/events
+[22:39:18] [INF] Standard Output: Support key: kedfgny
+
+Output: 16993 bytes
+
+[22:39:18] [ERR] Standard Error: 
+[22:39:18] [INF] Generating CommunicationPreferences
+[22:39:18] [INF] Generating CommunicationsStatus https://api.hubspot.com/api-catalog-public/v1/apis/communication-preferences/v3
+[22:39:21] [INF] Standard Output: Support key: kedfgny
+
+Output: 28091 bytes
+
+[22:39:21] [ERR] Standard Error: 
+[22:39:21] [INF] Generating Auth
+[22:39:21] [INF] Generating Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
+[22:39:23] [ERR] Failed to generate for Auth Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
+SimpleExec.ExitCodeReadException: The command exited with code -1.
+
+Standard output (stdout):
+
+Support key: kedfgny
+
+Error:
+Required property 'title' not found in JSON. Path 'info', line 5, position 3.
+Error: Could not find color or style 'T'.
+
+
+Standard error (stderr):
+
+
+   at SimpleExec.Command.ReadAsync(ProcessStartInfo startInfo, Func`2 handleExitCode, String standardInput, CancellationToken cancellationToken) in /_/SimpleExec/Command.cs:line 364
+   at SimpleExec.Command.ReadAsync(String name, String args, String workingDirectory, Action`1 configureEnvironment, Encoding encoding, Func`2 handleExitCode, String standardInput, CancellationToken cancellationToken) in /_/SimpleExec/Command.cs:line 263
+   at Program.<Main>$(String[] args) in C:\dev\damianh\HubSpot\gen\OpenApiGen\Program.cs:line 40
+[22:39:23] [INF] Generating BusinessUnits
+[22:39:23] [INF] Generating BusinessUnits https://api.hubspot.com/api-catalog-public/v1/apis/business-units/v3
+[22:39:26] [INF] Standard Output: Support key: kedfgny
+
+Output: 13735 bytes
+
+[22:39:26] [ERR] Standard Error: 
+[22:39:26] [INF] Generating Analytics
+[22:39:26] [INF] Generating CustomBehavioralEvents https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/send
+[22:39:29] [INF] Standard Output: Support key: kedfgny
+
+Output: 11838 bytes
+
+[22:39:29] [ERR] Standard Error: 
+[22:39:29] [INF] Generating Cms
+[22:39:29] [INF] Generating Domains https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/domains
+[22:39:32] [INF] Standard Output: Support key: kedfgny
+
+Output: 20101 bytes
+
+[22:39:32] [ERR] Standard Error: 
+[22:39:32] [INF] Generating SourceCode https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/source-code
+[22:39:34] [INF] Standard Output: Support key: kedfgny
+
+Output: 20433 bytes
+
+[22:39:34] [ERR] Standard Error: 
+[22:39:34] [INF] Generating BlogPosts https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/blog-posts
+[22:39:37] [INF] Standard Output: Support key: kedfgny
+
+Output: 370997 bytes
+
+[22:39:37] [ERR] Standard Error: 
+[22:39:37] [INF] Generating Authors https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/authors
+[22:39:40] [INF] Standard Output: Support key: kedfgny
+
+Output: 303338 bytes
+
+[22:39:40] [ERR] Standard Error: 
+[22:39:40] [INF] Generating UrlRedirects https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/url-redirects
+[22:39:43] [INF] Standard Output: Support key: kedfgny
+
+Output: 23394 bytes
+
+[22:39:43] [ERR] Standard Error: 
+[22:39:43] [INF] Generating Performance https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/performance
+[22:39:45] [INF] Standard Output: Support key: kedfgny
+
+Output: 23369 bytes
+
+[22:39:45] [ERR] Standard Error: 
+[22:39:45] [INF] Generating Hubdb https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/hubdb
+[22:39:48] [INF] Standard Output: Support key: kedfgny
+
+Output: 89520 bytes
+
+[22:39:48] [ERR] Standard Error: 
+[22:39:48] [INF] Generating Tags https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/tags
+[22:39:51] [INF] Standard Output: Support key: kedfgny
+
+Output: 299016 bytes
+
+[22:39:51] [ERR] Standard Error: 
+[22:39:51] [INF] Generating AuditLogs https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/audit-logs
+[22:39:54] [INF] Standard Output: Support key: kedfgny
+
+Output: 19093 bytes
+
+[22:39:54] [ERR] Standard Error: 
+[22:39:54] [INF] Generating SiteSearch https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/site-search
+[22:39:57] [INF] Standard Output: Support key: kedfgny
+
+Output: 159395 bytes
+
+[22:39:57] [ERR] Standard Error: 
+[22:39:57] [INF] Generating Marketing
+[22:39:57] [INF] Generating MarketingEventsBeta https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/marketing-events-beta
+[22:40:00] [INF] Standard Output: Support key: kedfgny
+
+Output: 97080 bytes
+
+[22:40:00] [ERR] Standard Error: 
+[22:40:00] [INF] Generating Transactional https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/transactional
+[22:40:03] [INF] Standard Output: Support key: kedfgny
+
+Output: 36212 bytes
+
+[22:40:03] [ERR] Standard Error: 
+[22:40:03] [INF] Generating Automation
+[22:40:03] [INF] Generating Actions https://api.hubspot.com/api-catalog-public/v1/apis/automation/v4/actions
+[22:40:05] [INF] Standard Output: Support key: kedfgny
+
+Output: 77491 bytes
+
+[22:40:05] [ERR] Standard Error: 
+[22:40:05] [INF] Generating Conversations
+[22:40:05] [INF] Generating VisitorIdentification https://api.hubspot.com/api-catalog-public/v1/apis/conversations/v3/visitor-identification
+[22:40:08] [INF] Standard Output: Support key: kedfgny
+
+Output: 12199 bytes
+
+[22:40:08] [ERR] Standard Error: 
+[22:40:08] [INF] Generating Crm
+[22:40:08] [INF] Generating CrmExtensions https://api.hubspot.com/api-catalog-public/v1/apis/extensions/sales-objects/v1/object-types
+[22:40:11] [INF] Standard Output: Support key: kedfgny
+
+Output: 53382 bytes
+
+[22:40:11] [ERR] Standard Error: 
+[22:40:11] [INF] Generating Products https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/products
+[22:40:14] [INF] Standard Output: Support key: kedfgny
+
+Output: 73386 bytes
+
+[22:40:14] [ERR] Standard Error: 
+[22:40:14] [INF] Generating CrmAssociations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v4/associations
+[22:40:17] [INF] Standard Output: Support key: kedfgny
+
+Output: 71773 bytes
+
+[22:40:17] [ERR] Standard Error: 
+[22:40:17] [INF] Generating Pipelines https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/pipelines
+[22:40:19] [INF] Standard Output: Support key: kedfgny
+
+Output: 39117 bytes
+
+[22:40:19] [ERR] Standard Error: 
+[22:40:19] [INF] Generating Accounting https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/accounting
+[22:40:22] [INF] Standard Output: Support key: kedfgny
+
+Output: 113161 bytes
+
+[22:40:22] [ERR] Standard Error: 
+[22:40:22] [INF] Generating Companies https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies
+[22:40:25] [INF] Standard Output: Support key: kedfgny
+
+Output: 73402 bytes
+
+[22:40:25] [ERR] Standard Error: 
+[22:40:25] [INF] Generating Calling https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/calling
+[22:40:28] [INF] Standard Output: Support key: kedfgny
+
+Output: 20020 bytes
+
+[22:40:28] [ERR] Standard Error: 
+[22:40:28] [INF] Generating Quotes https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/quotes
+[22:40:31] [INF] Standard Output: Support key: kedfgny
+
+Output: 73330 bytes
+
+[22:40:31] [ERR] Standard Error: 
+[22:40:31] [INF] Generating Deals https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/deals
+[22:40:33] [INF] Standard Output: Support key: kedfgny
+
+Output: 73302 bytes
+
+[22:40:33] [ERR] Standard Error: 
+[22:40:33] [INF] Generating Imports https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/imports
+[22:40:36] [INF] Standard Output: Support key: kedfgny
+
+Output: 53723 bytes
+
+[22:40:36] [ERR] Standard Error: 
+[22:40:36] [INF] Generating Schemas https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/schemas
+[22:40:39] [INF] Standard Output: Support key: kedfgny
+
+Output: 63028 bytes
+
+[22:40:39] [ERR] Standard Error: 
+[22:40:39] [INF] Generating Properties https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/properties
+[22:40:41] [INF] Standard Output: Support key: kedfgny
+
+Output: 77387 bytes
+
+[22:40:41] [ERR] Standard Error: 
+[22:40:41] [INF] Generating Associations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/associations
+[22:40:44] [INF] Standard Output: Support key: kedfgny
+
+Output: 50237 bytes
+
+[22:40:44] [ERR] Standard Error: 
+[22:40:44] [INF] Generating Owners https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/owners
+[22:40:47] [INF] Standard Output: Support key: kedfgny
+
+Output: 17385 bytes
+
+[22:40:47] [ERR] Standard Error: 
+[22:40:47] [INF] Generating Timeline https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/timeline
+[22:40:50] [INF] Standard Output: Support key: kedfgny
+
+Output: 72038 bytes
+
+[22:40:50] [ERR] Standard Error: 
+[22:40:50] [INF] Generating Contacts https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/contacts
+[22:40:53] [INF] Standard Output: Support key: kedfgny
+
+Output: 74820 bytes
+
+[22:40:53] [ERR] Standard Error: 
+[22:40:53] [INF] Generating FeedbackSubmissions https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/feedback_submissions
+[22:40:55] [INF] Standard Output: Support key: kedfgny
+
+Output: 73708 bytes
+
+[22:40:55] [ERR] Standard Error: 
+[22:40:55] [INF] Generating Objects https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects
+[22:40:57] [INF] Standard Output: Support key: kedfgny
+
+Output: 77676 bytes
+
+[22:40:57] [ERR] Standard Error: 
+[22:40:57] [INF] Generating Videoconferencing https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/videoconferencing
+[22:41:00] [INF] Standard Output: Support key: kedfgny
+
+Output: 11961 bytes
+
+[22:41:00] [ERR] Standard Error: 
+[22:41:00] [INF] Generating Tickets https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/tickets
+[22:41:02] [INF] Standard Output: Support key: kedfgny
+
+Output: 73358 bytes
+
+[22:41:02] [ERR] Standard Error: 
+[22:41:02] [INF] Generating LineItems https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/line_items
+[22:41:05] [INF] Standard Output: Support key: kedfgny
+
+Output: 73428 bytes
+
+[22:41:05] [ERR] Standard Error: 
+[22:41:05] [INF]   Webhooks Webhooks https://api.hubspot.com/api-catalog-public/v1/apis/webhooks/v3
+[22:41:05] [INF]   Events Events https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/events
+[22:41:05] [INF]   CommunicationPreferences CommunicationsStatus https://api.hubspot.com/api-catalog-public/v1/apis/communication-preferences/v3
+[22:41:05] [INF]   BusinessUnits BusinessUnits https://api.hubspot.com/api-catalog-public/v1/apis/business-units/v3
+[22:41:05] [INF]   Analytics CustomBehavioralEvents https://api.hubspot.com/api-catalog-public/v1/apis/events/v3/send
+[22:41:05] [INF]   Cms Domains https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/domains
+[22:41:05] [INF]   Cms SourceCode https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/source-code
+[22:41:05] [INF]   Cms BlogPosts https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/blog-posts
+[22:41:05] [INF]   Cms Authors https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/authors
+[22:41:05] [INF]   Cms UrlRedirects https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/url-redirects
+[22:41:05] [INF]   Cms Performance https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/performance
+[22:41:05] [INF]   Cms Hubdb https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/hubdb
+[22:41:05] [INF]   Cms Tags https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/tags
+[22:41:05] [INF]   Cms AuditLogs https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/audit-logs
+[22:41:05] [INF]   Cms SiteSearch https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/site-search
+[22:41:05] [INF]   Marketing MarketingEventsBeta https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/marketing-events-beta
+[22:41:05] [INF]   Marketing Transactional https://api.hubspot.com/api-catalog-public/v1/apis/marketing/v3/transactional
+[22:41:05] [INF]   Automation Actions https://api.hubspot.com/api-catalog-public/v1/apis/automation/v4/actions
+[22:41:05] [INF]   Conversations VisitorIdentification https://api.hubspot.com/api-catalog-public/v1/apis/conversations/v3/visitor-identification
+[22:41:05] [INF]   Crm CrmExtensions https://api.hubspot.com/api-catalog-public/v1/apis/extensions/sales-objects/v1/object-types
+[22:41:05] [INF]   Crm Products https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/products
+[22:41:05] [INF]   Crm CrmAssociations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v4/associations
+[22:41:05] [INF]   Crm Pipelines https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/pipelines
+[22:41:05] [INF]   Crm Accounting https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/accounting
+[22:41:05] [INF]   Crm Companies https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies
+[22:41:05] [INF]   Crm Calling https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/calling
+[22:41:05] [INF]   Crm Quotes https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/quotes
+[22:41:05] [INF]   Crm Deals https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/deals
+[22:41:05] [INF]   Crm Imports https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/imports
+[22:41:05] [INF]   Crm Schemas https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/schemas
+[22:41:05] [INF]   Crm Properties https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/properties
+[22:41:05] [INF]   Crm Associations https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/associations
+[22:41:05] [INF]   Crm Owners https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/owners
+[22:41:05] [INF]   Crm Timeline https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/timeline
+[22:41:05] [INF]   Crm Contacts https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/contacts
+[22:41:05] [INF]   Crm FeedbackSubmissions https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/feedback_submissions
+[22:41:05] [INF]   Crm Objects https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects
+[22:41:05] [INF]   Crm Videoconferencing https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/extensions/videoconferencing
+[22:41:05] [INF]   Crm Tickets https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/tickets
+[22:41:05] [INF]   Crm LineItems https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/line_items
+[22:41:05] [ERR]   Auth Oauth https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1
